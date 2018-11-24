@@ -11,8 +11,8 @@ def argue(v)
   v
 end
 
-def greeting
-
+def greeting(greeting, name)
+  puts "#{greeting}, is your name #{name}"
 end
 
 def return_a_value
